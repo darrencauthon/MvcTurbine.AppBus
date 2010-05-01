@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.AppBus", "MvcTurbine.AppBus\MvcTurbine.AppBus.csproj", "{CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcTurbine.AppBus.Tests", "MvcTurbine.AppBus.Tests\MvcTurbine.AppBus.Tests.csproj", "{74826923-65D3-4145-8807-4B4C77465409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74826923-65D3-4145-8807-4B4C77465409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74826923-65D3-4145-8807-4B4C77465409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74826923-65D3-4145-8807-4B4C77465409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74826923-65D3-4145-8807-4B4C77465409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
