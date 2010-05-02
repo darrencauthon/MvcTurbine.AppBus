@@ -2,7 +2,7 @@ using System;
 using AppBus;
 using MvcTurbine.ComponentModel;
 
-namespace MvcTurbine.AppBus
+namespace MvcTurbine.AppBus.Helpers
 {
     public class ServiceLocatorMessageHandlerFactory : IMessageHandlerFactory
     {

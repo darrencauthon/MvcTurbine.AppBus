@@ -1,14 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using AppBus;
 using AutoMoq;
-using Moq;
+using MvcTurbine.AppBus.Helpers;
 using MvcTurbine.ComponentModel;
 using NUnit.Framework;
 
-namespace MvcTurbine.AppBus.Tests
+namespace MvcTurbine.AppBus.Tests.Helpers
 {
     [TestFixture]
     public class ServiceLocatorMessageHandlerFactoryTests
@@ -30,7 +28,7 @@ namespace MvcTurbine.AppBus.Tests
 
             var factory = new ServiceLocatorMessageHandlerFactory(serviceLocator);
 
-            var handler = factory.Create(typeof(FakeMessageHandler));
+            var handler = factory.Create(typeof (FakeMessageHandler));
 
             Assert.AreSame(expectedHandler, handler);
         }
@@ -42,7 +40,10 @@ namespace MvcTurbine.AppBus.Tests
             return serviceLocator;
         }
 
-        public class EventMessage : IEventMessage { }
+        public class EventMessage : IEventMessage
+        {
+        }
+
         public class FakeMessageHandler : MessageHandler<EventMessage>
         {
             public override void Handle(EventMessage message)
@@ -52,9 +53,9 @@ namespace MvcTurbine.AppBus.Tests
         }
 
         #region ServiceLocatorFake
+
         public class ServiceLocatorFake : IServiceLocator
         {
-
             public FakeMessageHandler HandlerToReturn { get; set; }
 
             public void Dispose()
@@ -79,7 +80,7 @@ namespace MvcTurbine.AppBus.Tests
 
             public object Resolve(Type type)
             {
-                if (type == typeof(FakeMessageHandler))
+                if (type == typeof (FakeMessageHandler))
                     return HandlerToReturn;
                 return null;
             }
@@ -144,6 +145,7 @@ namespace MvcTurbine.AppBus.Tests
                 throw new NotImplementedException();
             }
         }
+
         #endregion
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using AppBus;
 
-namespace MvcTurbine.AppBus
+namespace MvcTurbine.AppBus.Helpers
 {
     public interface IMessageHandlerRetriever
     {

@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApplicationBusBlade.cs" />
-    <Compile Include="MessageHandlerRetriever.cs" />
+    <Compile Include="Helpers\MessageHandlerRetriever.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ServiceLocatorMessageHandlerFactory.cs" />
+    <Compile Include="Helpers\ServiceLocatorMessageHandlerFactory.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

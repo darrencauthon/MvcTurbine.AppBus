@@ -2,9 +2,10 @@
 using System.Linq;
 using AppBus;
 using AutoMoq;
+using MvcTurbine.AppBus.Helpers;
 using NUnit.Framework;
 
-namespace MvcTurbine.AppBus.Tests
+namespace MvcTurbine.AppBus.Tests.Helpers
 {
     [TestFixture]
     public class MessageHandlerRetrieverTests

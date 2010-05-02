@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using AppBus;
 using AutoMoq;
 using Moq;
+using MvcTurbine.AppBus.Helpers;
 using MvcTurbine.ComponentModel;
 using NUnit.Framework;
 
