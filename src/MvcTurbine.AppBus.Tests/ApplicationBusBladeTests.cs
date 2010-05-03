@@ -21,29 +21,15 @@ namespace MvcTurbine.AppBus.Tests
         }
 
         [Test]
-        public void Initialize_should_register_the_application_bus()
+        public void Spin_should_register_the_application_bus()
         {
             var serviceLocatorFake = new ServiceLocatorFake();
             var contextFake = GetContextFakeThatReturnsThisServiceLocator(serviceLocatorFake);
 
             var blade = CreateTheApplicationBusBlade();
-            blade.Initialize(contextFake.Object);
-
-            Assert.IsNotNull(serviceLocatorFake.RegisteredApplicationBus);
-        }
-
-        [Test]
-        public void When_one_handler_exists_then_it_is_added_to_the_application_bus()
-        {
-            var messageHandlerType = CreateMessageHandlerType();
-
-            var applicationBusFake = new Mock<IApplicationBus>();
-            var contextFake = CreateContextFakeThatUsesThisApplicationBus(applicationBusFake);
-
-            var blade = CreateTheApplicationBusBlade();
             blade.Spin(contextFake.Object);
 
-            applicationBusFake.Verify(x => x.Add(messageHandlerType), Times.Once());
+            Assert.IsNotNull(serviceLocatorFake.RegisteredApplicationBus);
         }
 
         [Test]

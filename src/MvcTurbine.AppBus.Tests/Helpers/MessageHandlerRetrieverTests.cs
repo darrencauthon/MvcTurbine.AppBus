@@ -25,7 +25,7 @@ namespace MvcTurbine.AppBus.Tests.Helpers
 
             var results = retriever.GetAllMessageHandlerTypes();
 
-            Assert.AreEqual(5, results.Count());
+            Assert.AreEqual(3, results.Count());
             Assert.Contains(typeof (Test1), results.ToList());
             Assert.Contains(typeof (Test2), results.ToList());
         }

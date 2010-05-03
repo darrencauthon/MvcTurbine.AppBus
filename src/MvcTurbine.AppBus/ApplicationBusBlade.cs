@@ -11,11 +11,12 @@ namespace MvcTurbine.AppBus
     {
         public override void Initialize(IRotorContext context)
         {
-            SetupTheApplicationBus(context);
         }
 
         public override void Spin(IRotorContext context)
         {
+            SetupTheApplicationBus(context);
+
             var applicationBus = GetTheApplicationBus(context);
             var types = GetTypesToRegister(context);
 
@@ -65,6 +66,10 @@ namespace MvcTurbine.AppBus
             var serviceLocator = context.ServiceLocator;
             var serviceLocatorMessageHandlerFactory = new ServiceLocatorMessageHandlerFactory(serviceLocator);
             return new ApplicationBus(serviceLocatorMessageHandlerFactory);
+        }
+
+        public void AddRegistrations(AutoRegistrationList registrationList)
+        {
         }
     }
 }

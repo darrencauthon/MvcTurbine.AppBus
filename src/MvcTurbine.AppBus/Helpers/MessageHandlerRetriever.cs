@@ -31,7 +31,9 @@ namespace MvcTurbine.AppBus.Helpers
 
         private static IEnumerable<Assembly> GetAllAssemblies()
         {
-            return AppDomain.CurrentDomain.GetAssemblies().ToList();
+            return AppDomain.CurrentDomain.GetAssemblies()
+                .Where(x => x.FullName.StartsWith("AppBus,") == false)
+                .ToList();
         }
     }
 }

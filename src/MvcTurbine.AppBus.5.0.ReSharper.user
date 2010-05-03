@@ -7,8 +7,46 @@
     </boolean>
   </SettingsComponent>
   <RecentFiles>
-    <RecentFiles />
-    <RecentEdits />
+    <RecentFiles>
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:ServiceLocatorMessageHandlerFactory.cs" caret="64" fromTop="2" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:MessageHandlerRetriever.cs" caret="1053" fromTop="35" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:ServiceLocatorMessageHandlerFactoryTests.cs" caret="500" fromTop="146" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="1509" fromTop="57" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="1099" fromTop="5" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/f:ApplicationBusBlade.cs" caret="1257" fromTop="36" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="22" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="168" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="355" fromTop="8" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="1509" fromTop="11" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="1509" fromTop="21" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="1509" fromTop="25" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="1509" fromTop="36" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="1509" fromTop="28" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:MessageHandlerRetriever.cs" caret="1053" fromTop="8" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:MessageHandlerRetriever.cs" caret="1053" fromTop="9" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:MessageHandlerRetriever.cs" caret="1053" fromTop="19" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:MessageHandlerRetriever.cs" caret="1053" fromTop="12" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="1509" fromTop="56" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:ServiceLocatorMessageHandlerFactoryTests.cs" caret="500" fromTop="145" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:MessageHandlerRetriever.cs" caret="1053" fromTop="35" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/d:Helpers/f:ServiceLocatorMessageHandlerFactory.cs" caret="90" fromTop="3" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/d:Helpers/f:MessageHandlerRetrieverTests.cs" caret="500" fromTop="57" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/f:ApplicationBusBlade.cs" caret="246" fromTop="0" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="14" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="14" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/f:ApplicationBusBlade.cs" caret="367" fromTop="10" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="27" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="32" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="20" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="490" fromTop="26" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="6757" fromTop="171" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="1957" fromTop="15" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/f:ApplicationBusBlade.cs" caret="566" fromTop="26" />
+      <File id="74826923-65D3-4145-8807-4B4C77465409/f:ApplicationBusBladeTests.cs" caret="1797" fromTop="18" />
+      <File id="CC4D64F3-73E7-4A7C-A3D5-45B12B94CABD/f:ApplicationBusBlade.cs" caret="568" fromTop="16" />
+    </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
     <NAntPath value="" />
@@ -20,4 +58,166 @@
     <NUnitInstallDir>C:\Program Files\NUnit 2.5.4\bin\net-2.0\</NUnitInstallDir>
     <UseAddins>Never</UseAddins>
   </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="automoqermstest" priority="1" />
+      <Item value="public" priority="14" />
+      <Item value="class" priority="6" />
+      <Item value="testmstest" priority="7" />
+      <Item value="automoqernunit" priority="3" />
+      <Item value="testnunit" priority="8" />
+      <Item value="NUnit" priority="1" />
+      <Item value="Framework" priority="1" />
+      <Item value="SetUp" priority="1" />
+      <Item value="SetUpFixture" priority="0" />
+      <Item value="TestFixture" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="mocker" priority="7" />
+      <Item value="new" priority="22" />
+      <Item value="AutoMoqer" priority="0" />
+      <Item value="Assert`0" priority="14" />
+      <Item value="ITestCaseData`0" priority="1" />
+      <Item value="ApplicationBus`0" priority="0" />
+      <Item value="Times`0" priority="1" />
+      <Item value="var" priority="23" />
+      <Item value="blade" priority="6" />
+      <Item value="override" priority="0" />
+      <Item value="MvcTurbine" priority="0" />
+      <Item value="Mock`0" priority="3" />
+      <Item value="IRotorContext`0" priority="0" />
+      <Item value="contextFake" priority="1" />
+      <Item value="IServiceLocator`0" priority="2" />
+      <Item value="RegisteredApplicationBus" priority="2" />
+      <Item value="instance" priority="0" />
+      <Item value="as" priority="5" />
+      <Item value="IApplicationBus`0" priority="4" />
+      <Item value="ServiceLocatorFake`0" priority="1" />
+      <Item value="serviceLocatorFake" priority="3" />
+      <Item value="context" priority="4" />
+      <Item value="serviceLocator" priority="6" />
+      <Item value="ApplicationBus" priority="1" />
+      <Item value="ServiceLocatorMessageHandlerFactoryTests`0" priority="0" />
+      <Item value="IMessageHandler`0" priority="6" />
+      <Item value="IMessageHandlerFactory`0" priority="1" />
+      <Item value="AppBus" priority="2" />
+      <Item value="ApplicationBusBlade`0" priority="2" />
+      <Item value="Message`0" priority="0" />
+      <Item value="MessageHandler" priority="0" />
+      <Item value="EventMessage`0" priority="2" />
+      <Item value="factory" priority="0" />
+      <Item value="FakeMessageHandler`0" priority="2" />
+      <Item value="SetCultureAttribute`0" priority="0" />
+      <Item value="return" priority="11" />
+      <Item value="T`0" priority="4" />
+      <Item value="EventMessageToReturn" priority="0" />
+      <Item value="EventMessage" priority="0" />
+      <Item value="expectedHandler" priority="0" />
+      <Item value="HandlerToReturn" priority="0" />
+      <Item value="Type`0" priority="1" />
+      <Item value="if" priority="3" />
+      <Item value="type" priority="2" />
+      <Item value="typeof" priority="7" />
+      <Item value="null" priority="1" />
+      <Item value="ServiceLocatorMessageHandlerFactory`0" priority="2" />
+      <Item value="Add_all_message_handlers_with_the_application_bus`0" priority="0" />
+      <Item value="Creating_message_handlers_goes_through_the_service_locator`0" priority="0" />
+      <Item value="applicationBusFake" priority="2" />
+      <Item value="CreateTheApplicationBus`0" priority="0" />
+      <Item value="messageHandler" priority="2" />
+      <Item value="messageHandlerRetriever" priority="6" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="foreach" priority="3" />
+      <Item value="in" priority="2" />
+      <Item value="types" priority="1" />
+      <Item value="applicationBus" priority="1" />
+      <Item value="Type" priority="0" />
+      <Item value="CreateMessageHandlerType`0" priority="1" />
+      <Item value="messageHandlerType" priority="0" />
+      <Item value="messageHandlerTypes" priority="0" />
+      <Item value="ForEach`1" priority="0" />
+      <Item value="IMessageHandlerRetriever`0" priority="3" />
+      <Item value="MessageHandlerRetriever`0" priority="3" />
+      <Item value="Lazy" priority="1" />
+      <Item value="this" priority="0" />
+      <Item value="Test1`0" priority="0" />
+      <Item value="Test2`0" priority="0" />
+      <Item value="assemblies" priority="1" />
+      <Item value="assembly" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="List" priority="0" />
+      <Item value="bool" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="ServiceResolutionException" priority="0" />
+      <Item value="ShouldThrowExceptionWhenResolvingMessageHandler" priority="0" />
+      <Item value="try" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="MessageHandlerRetriever" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsTrue`0" priority="0" />
+      <Item value="AreSame`0" priority="1" />
+      <Item value="IsNotNull`0" priority="0" />
+      <Item value="IsInstanceOf`1" priority="3" />
+      <Item value="AreEqual`0" priority="0" />
+      <Item value="Contains`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AutoMoq.AutoMoqer">
+      <Item value="GetMock`1" priority="3" />
+      <Item value="Resolve`1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Verify`1" priority="1" />
+      <Item value="Setup`1" priority="0" />
+      <Item value="Object" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.ComponentModel.IServiceLocator">
+      <Item value="Register`1" priority="1" />
+      <Item value="Resolve`0" priority="2" />
+      <Item value="GetHashCode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.Times">
+      <Item value="Once`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.IRotorContext">
+      <Item value="ServiceLocator" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`4" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.AppBus.Tests.ApplicationBusBladeTests+ServiceLocatorFake">
+      <Item value="RegisteredApplicationBus" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.AppBus.ServiceLocatorMessageHandlerFactory">
+      <Item value="Create`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.AppBus.Tests.ServiceLocatorMessageHandlerFactoryTests+ServiceLocatorFake">
+      <Item value="EventMessageToReturn" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.AppBus.ApplicationBusBlade">
+      <Item value="Spin`0" priority="0" />
+      <Item value="MessageHandlerRetriever" priority="4" />
+      <Item value="Initialize`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AppBus.IMessageHandler">
+      <Item value="GetType`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcTurbine.AppBus.IMessageHandlerRetriever">
+      <Item value="GetAllMessageHandlerTypes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AppBus.IApplicationBus">
+      <Item value="Send`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Reflection.Assembly">
+      <Item value="GetTypes`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="GetInterfaces`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
 </Configuration>
