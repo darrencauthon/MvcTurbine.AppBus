@@ -36,28 +36,28 @@ namespace MvcTurbine.AppBus.Tests
         public void When_one_handler_exists_then_it_is_added_to_the_application_bus()
         {
             var messageHandlerType = CreateMessageHandlerType();
-            var messageHandlerRetrieverFake = CreateMessageHandlerRetrieverFake(new[]{messageHandlerType});
 
             var applicationBusFake = new Mock<IApplicationBus>();
             var contextFake = CreateContextFakeThatUsesThisApplicationBus(applicationBusFake);
 
             var blade = CreateTheApplicationBusBlade();
-            blade.MessageHandlerRetriever = messageHandlerRetrieverFake.Object;
             blade.Spin(contextFake.Object);
 
             applicationBusFake.Verify(x => x.Add(messageHandlerType), Times.Once());
         }
 
         [Test]
-        public void The_default_MessageHandlerRetriever_is_set_to_instance_of_MessageHandlerRetriever()
+        public void When_there_is_no_registered_message_retriever_then_use_the_default_message_retriever()
         {
-            var serviceLocatorFake = new ServiceLocatorFake();
+            var serviceLocatorFake = new ServiceLocatorFake{ShouldThrowExceptionWhenResolvingMessageHandler = true};
+            serviceLocatorFake.RegisteredApplicationBus = new Mock<IApplicationBus>().Object;
+
             var contextFake = GetContextFakeThatReturnsThisServiceLocator(serviceLocatorFake);
 
             var blade = CreateTheApplicationBusBlade();
-            blade.Initialize(contextFake.Object);
+            blade.Spin(contextFake.Object);
 
-            Assert.IsInstanceOf(typeof (MessageHandlerRetriever), blade.MessageHandlerRetriever);
+            Assert.IsNotNull(serviceLocatorFake.RegisteredApplicationBus);
         }
 
         private Mock<IRotorContext> CreateContextFakeThatUsesThisApplicationBus(Mock<IApplicationBus> applicationBusFake)
@@ -98,6 +98,7 @@ namespace MvcTurbine.AppBus.Tests
         public class ServiceLocatorFake : IServiceLocator
         {
             public IApplicationBus RegisteredApplicationBus { get; set; }
+            public bool ShouldThrowExceptionWhenResolvingMessageHandler { get; set; }
 
             public void Dispose()
             {
@@ -107,7 +108,11 @@ namespace MvcTurbine.AppBus.Tests
             public T Resolve<T>() where T : class
             {
                 if (typeof (T) == typeof (IMessageHandlerRetriever))
+                {
+                    if (ShouldThrowExceptionWhenResolvingMessageHandler)
+                        throw new ServiceResolutionException(typeof (T));
                     return new MessageHandlerRetriever() as T;
+                }
 
                 return RegisteredApplicationBus as T;
             }
