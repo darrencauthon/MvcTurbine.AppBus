@@ -28,7 +28,7 @@ namespace MvcTurbine.AppBus.Tests.Helpers
 
             var factory = new ServiceLocatorMessageHandlerFactory(serviceLocator);
 
-            var handler = factory.Create(typeof (FakeMessageHandler));
+            var handler = factory.Create<EventMessage>(typeof (FakeMessageHandler));
 
             Assert.AreSame(expectedHandler, handler);
         }
@@ -44,9 +44,9 @@ namespace MvcTurbine.AppBus.Tests.Helpers
         {
         }
 
-        public class FakeMessageHandler : MessageHandler<EventMessage>
+        public class FakeMessageHandler : IMessageHandler<EventMessage>
         {
-            public override void Handle(EventMessage message)
+            public void Handle(EventMessage message)
             {
                 throw new NotImplementedException();
             }
@@ -90,6 +90,11 @@ namespace MvcTurbine.AppBus.Tests.Helpers
                 throw new NotImplementedException();
             }
 
+            public IList<object> ResolveServices(Type type)
+            {
+                throw new NotImplementedException();
+            }
+
             public IServiceRegistrar Batch()
             {
                 throw new NotImplementedException();
@@ -121,6 +126,11 @@ namespace MvcTurbine.AppBus.Tests.Helpers
             }
 
             public void Register<Interface>(Interface instance) where Interface : class
+            {
+                throw new NotImplementedException();
+            }
+
+            public void Register<Interface>(Func<Interface> factoryMethod) where Interface : class
             {
                 throw new NotImplementedException();
             }

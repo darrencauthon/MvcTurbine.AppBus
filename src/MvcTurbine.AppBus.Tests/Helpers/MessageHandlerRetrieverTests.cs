@@ -30,27 +30,18 @@ namespace MvcTurbine.AppBus.Tests.Helpers
             Assert.Contains(typeof (Test2), results.ToList());
         }
 
-        public class Test1 : IMessageHandler
+        public class Test1 : IMessageHandler<Test1>
         {
-            public bool CanHandle(Type type)
-            {
-                throw new NotImplementedException();
-            }
-
-            public void Handle(object message)
+            public void Handle(Test1 message)
             {
                 throw new NotImplementedException();
             }
         }
 
-        public class Test2 : IMessageHandler
+        public class Test2 : IMessageHandler<Test2>
         {
-            public bool CanHandle(Type type)
-            {
-                throw new NotImplementedException();
-            }
 
-            public void Handle(object message)
+            public void Handle(Test2 message)
             {
                 throw new NotImplementedException();
             }

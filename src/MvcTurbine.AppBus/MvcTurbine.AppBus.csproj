@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MvcTurbine.AppBus</RootNamespace>
     <AssemblyName>MvcTurbine.AppBus</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -33,16 +33,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AppBus">
-      <HintPath>..\..\lib\AppBus\AppBus.dll</HintPath>
+      <HintPath>..\packages\AppBus.1.2\lib\AppBus.dll</HintPath>
     </Reference>
     <Reference Include="MvcTurbine">
-      <HintPath>..\..\lib\MvcTurbine\MvcTurbine.dll</HintPath>
+      <HintPath>..\packages\MVCTurbine.3.0\lib\MvcTurbine.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
@@ -51,6 +50,9 @@
     <Compile Include="Helpers\MessageHandlerRetriever.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Helpers\ServiceLocatorMessageHandlerFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -123,6 +123,11 @@ namespace MvcTurbine.AppBus.Tests
                 throw new NotImplementedException();
             }
 
+            public IList<object> ResolveServices(Type type)
+            {
+                throw new NotImplementedException();
+            }
+
             public IServiceRegistrar Batch()
             {
                 throw new NotImplementedException();
@@ -156,6 +161,11 @@ namespace MvcTurbine.AppBus.Tests
             public void Register<Interface>(Interface instance) where Interface : class
             {
                 RegisteredApplicationBus = instance as IApplicationBus;
+            }
+
+            public void Register<Interface>(Func<Interface> factoryMethod) where Interface : class
+            {
+                throw new NotImplementedException();
             }
 
             public void Release(object instance)

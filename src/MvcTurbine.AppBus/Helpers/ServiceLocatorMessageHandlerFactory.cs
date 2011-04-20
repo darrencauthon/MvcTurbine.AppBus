@@ -13,9 +13,9 @@ namespace MvcTurbine.AppBus.Helpers
             this.serviceLocator = serviceLocator;
         }
 
-        public IMessageHandler Create(Type type)
+        public IMessageHandler<T> Create<T>(Type type)
         {
-            return serviceLocator.Resolve(type) as IMessageHandler;
+            return serviceLocator.Resolve(type) as IMessageHandler<T>;
         }
     }
 }
